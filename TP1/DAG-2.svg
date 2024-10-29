@@ -1,0 +1,48 @@
+<svg width="900pt" height="45pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20241029051455186" class="svg-pan-zoom_viewport" transform="matrix(0.9218841980162829,0,0,0.9218841980162829,0,371.75760554463363)" style="transform: matrix(0.921884, 0, 0, 0.921884, 0, 371.758);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 41)">
+<title>MapReduceDAG</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-41 896.33,-41 896.33,4 -4,4"></polygon>
+<!-- jugadores.txt -->
+<g id="node1" class="node">
+<title>jugadores.txt</title>
+<ellipse fill="red" stroke="red" cx="61.19" cy="-18.5" rx="61.19" ry="18"></ellipse>
+<text text-anchor="middle" x="61.19" y="-14.3" font-family="Times,serif" font-size="14.00">jugadores.txt</text>
+</g>
+<!-- Job 1 (Contar Héroes por Misión) -->
+<g id="node3" class="node">
+<title>Job 1 (Contar Héroes por Misión)</title>
+<ellipse fill="yellow" stroke="yellow" cx="300.57" cy="-18.5" rx="142.2" ry="18"></ellipse>
+<text text-anchor="middle" x="300.57" y="-14.3" font-family="Times,serif" font-size="14.00">Job 1 (Contar Héroes por Misión)</text>
+</g>
+<!-- jugadores.txt&#45;&gt;Job 1 (Contar Héroes por Misión) -->
+<g id="edge1" class="edge">
+<title>jugadores.txt-&gt;Job 1 (Contar Héroes por Misión)</title>
+<path fill="none" stroke="black" d="M122.71,-18.5C130.35,-18.5 138.43,-18.5 146.76,-18.5"></path>
+<polygon fill="black" stroke="black" points="146.73,-22 156.72,-18.5 146.72,-15 146.73,-22"></polygon>
+</g>
+<!-- output -->
+<g id="node2" class="node">
+<title>output</title>
+<polygon fill="lightgreen" stroke="lightgreen" points="838.33,-0.5 838.33,-36.5 892.33,-36.5 892.33,-0.5 838.33,-0.5"></polygon>
+<text text-anchor="middle" x="865.33" y="-14.4" font-family="Times,serif" font-size="14.00">output</text>
+</g>
+<!-- Job 2 (Héroe Más Elegido por Misión) -->
+<g id="node4" class="node">
+<title>Job 2 (Héroe Más Elegido por Misión)</title>
+<ellipse fill="yellow" stroke="yellow" cx="640.55" cy="-18.5" rx="161.78" ry="18"></ellipse>
+<text text-anchor="middle" x="640.55" y="-14.3" font-family="Times,serif" font-size="14.00">Job 2 (Héroe Más Elegido por Misión)</text>
+</g>
+<!-- Job 1 (Contar Héroes por Misión)&#45;&gt;Job 2 (Héroe Más Elegido por Misión) -->
+<g id="edge2" class="edge">
+<title>Job 1 (Contar Héroes por Misión)-&gt;Job 2 (Héroe Más Elegido por Misión)</title>
+<path fill="none" stroke="black" d="M442.95,-18.5C450.94,-18.5 459.02,-18.5 467.1,-18.5"></path>
+<polygon fill="black" stroke="black" points="467.02,-22 477.02,-18.5 467.02,-15 467.02,-22"></polygon>
+</g>
+<!-- Job 2 (Héroe Más Elegido por Misión)&#45;&gt;output -->
+<g id="edge3" class="edge">
+<title>Job 2 (Héroe Más Elegido por Misión)-&gt;output</title>
+<path fill="none" stroke="black" d="M802.57,-18.5C811.26,-18.5 819.43,-18.5 826.82,-18.5"></path>
+<polygon fill="black" stroke="black" points="826.59,-22 836.59,-18.5 826.59,-15 826.59,-22"></polygon>
+</g>
+</g>
+</g></svg>

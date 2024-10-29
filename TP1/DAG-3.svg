@@ -1,0 +1,60 @@
+<svg width="1024pt" height="98pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20241029061731375" class="svg-pan-zoom_viewport" transform="matrix(0.8103965084603443,0,0,0.8103965084603443,0,352.79057108544316)" style="transform: matrix(0.810397, 0, 0, 0.810397, 0, 352.791);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
+<title>MapReduceDAG</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-94 1020.19,-94 1020.19,4 -4,4"></polygon>
+<!-- jugadores.txt -->
+<g id="node1" class="node">
+<title>jugadores.txt</title>
+<ellipse fill="red" stroke="red" cx="61.19" cy="-72" rx="61.19" ry="18"></ellipse>
+<text text-anchor="middle" x="61.19" y="-67.8" font-family="Times,serif" font-size="14.00">jugadores.txt</text>
+</g>
+<!-- Job 1 (Contar Héroes Únicos por Jugador) -->
+<g id="node4" class="node">
+<title>Job 1 (Contar Héroes Únicos por Jugador)</title>
+<ellipse fill="yellow" stroke="yellow" cx="331.41" cy="-72" rx="173.03" ry="18"></ellipse>
+<text text-anchor="middle" x="331.41" y="-67.8" font-family="Times,serif" font-size="14.00">Job 1 (Contar Héroes Únicos por Jugador)</text>
+</g>
+<!-- jugadores.txt&#45;&gt;Job 1 (Contar Héroes Únicos por Jugador) -->
+<g id="edge1" class="edge">
+<title>jugadores.txt-&gt;Job 1 (Contar Héroes Únicos por Jugador)</title>
+<path fill="none" stroke="black" d="M122.72,-72C130.26,-72 138.25,-72 146.54,-72"></path>
+<polygon fill="black" stroke="black" points="146.49,-75.5 156.49,-72 146.49,-68.5 146.49,-75.5"></polygon>
+</g>
+<!-- output -->
+<g id="node2" class="node">
+<title>output</title>
+<polygon fill="lightgreen" stroke="lightgreen" points="962.19,-27 962.19,-63 1016.19,-63 1016.19,-27 962.19,-27"></polygon>
+<text text-anchor="middle" x="989.19" y="-40.9" font-family="Times,serif" font-size="14.00">output</text>
+</g>
+<!-- Parámetro H -->
+<g id="node3" class="node">
+<title>Parámetro H</title>
+<ellipse fill="lightblue" stroke="lightblue" cx="331.41" cy="-18" rx="60.65" ry="18"></ellipse>
+<text text-anchor="middle" x="331.41" y="-13.8" font-family="Times,serif" font-size="14.00">Parámetro H</text>
+</g>
+<!-- Job 2 (Filtrar Jugadores con Más de H Héroes) -->
+<g id="node5" class="node">
+<title>Job 2 (Filtrar Jugadores con Más de H Héroes)</title>
+<ellipse fill="yellow" stroke="yellow" cx="733.32" cy="-45" rx="192.88" ry="18"></ellipse>
+<text text-anchor="middle" x="733.32" y="-40.8" font-family="Times,serif" font-size="14.00">Job 2 (Filtrar Jugadores con Más de H Héroes)</text>
+</g>
+<!-- Parámetro H&#45;&gt;Job 2 (Filtrar Jugadores con Más de H Héroes) -->
+<g id="edge3" class="edge">
+<title>Parámetro H-&gt;Job 2 (Filtrar Jugadores con Más de H Héroes)</title>
+<path fill="none" stroke="black" d="M390.99,-21.95C436.53,-25.03 502.11,-29.46 563.64,-33.61"></path>
+<polygon fill="black" stroke="black" points="563.35,-37.1 573.57,-34.28 563.83,-30.12 563.35,-37.1"></polygon>
+</g>
+<!-- Job 1 (Contar Héroes Únicos por Jugador)&#45;&gt;Job 2 (Filtrar Jugadores con Más de H Héroes) -->
+<g id="edge2" class="edge">
+<title>Job 1 (Contar Héroes Únicos por Jugador)-&gt;Job 2 (Filtrar Jugadores con Más de H Héroes)</title>
+<path fill="none" stroke="black" d="M478.2,-62.16C506.08,-60.27 535.49,-58.29 564.01,-56.36"></path>
+<polygon fill="black" stroke="black" points="564.07,-59.87 573.81,-55.7 563.59,-52.88 564.07,-59.87"></polygon>
+</g>
+<!-- Job 2 (Filtrar Jugadores con Más de H Héroes)&#45;&gt;output -->
+<g id="edge4" class="edge">
+<title>Job 2 (Filtrar Jugadores con Más de H Héroes)-&gt;output</title>
+<path fill="none" stroke="black" d="M926.41,-45C935.05,-45 943.13,-45 950.42,-45"></path>
+<polygon fill="black" stroke="black" points="950.39,-48.5 960.39,-45 950.39,-41.5 950.39,-48.5"></polygon>
+</g>
+</g>
+</g></svg>

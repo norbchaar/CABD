@@ -1,0 +1,48 @@
+<svg width="860pt" height="45pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20241029035657844" class="svg-pan-zoom_viewport" transform="matrix(0.9648918856079981,0,0,0.9648918856079981,0,370.78993257382007)" style="transform: matrix(0.964892, 0, 0, 0.964892, 0, 370.79);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 41)">
+<title>MapReduceDAG</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-41 856.2,-41 856.2,4 -4,4"></polygon>
+<!-- jugadores.txt -->
+<g id="node1" class="node">
+<title>jugadores.txt</title>
+<polygon fill="red" stroke="red" points="0,-0.5 0,-36.5 88.71,-36.5 88.71,-0.5 0,-0.5"></polygon>
+<text text-anchor="middle" x="44.35" y="-14.4" font-family="Times,serif" font-size="14.00">jugadores.txt</text>
+</g>
+<!-- Job 1 (Contar Misiones Jugadas) -->
+<g id="node3" class="node">
+<title>Job 1 (Contar Misiones Jugadas)</title>
+<ellipse fill="yellow" stroke="yellow" cx="262.34" cy="-18.5" rx="137.64" ry="18"></ellipse>
+<text text-anchor="middle" x="262.34" y="-14.3" font-family="Times,serif" font-size="14.00">Job 1 (Contar Misiones Jugadas)</text>
+</g>
+<!-- jugadores.txt&#45;&gt;Job 1 (Contar Misiones Jugadas) -->
+<g id="edge1" class="edge">
+<title>jugadores.txt-&gt;Job 1 (Contar Misiones Jugadas)</title>
+<path fill="none" stroke="black" d="M89.06,-18.5C96.52,-18.5 104.62,-18.5 113.11,-18.5"></path>
+<polygon fill="black" stroke="black" points="112.95,-22 122.95,-18.5 112.95,-15 112.95,-22"></polygon>
+</g>
+<!-- output -->
+<g id="node2" class="node">
+<title>output</title>
+<polygon fill="lightgreen" stroke="lightgreen" points="798.2,-0.5 798.2,-36.5 852.2,-36.5 852.2,-0.5 798.2,-0.5"></polygon>
+<text text-anchor="middle" x="825.2" y="-14.4" font-family="Times,serif" font-size="14.00">output</text>
+</g>
+<!-- Job 2 (Determinar Misión Más Jugada) -->
+<g id="node4" class="node">
+<title>Job 2 (Determinar Misión Más Jugada)</title>
+<ellipse fill="yellow" stroke="yellow" cx="599.09" cy="-18.5" rx="163.11" ry="18"></ellipse>
+<text text-anchor="middle" x="599.09" y="-14.3" font-family="Times,serif" font-size="14.00">Job 2 (Determinar Misión Más Jugada)</text>
+</g>
+<!-- Job 1 (Contar Misiones Jugadas)&#45;&gt;Job 2 (Determinar Misión Más Jugada) -->
+<g id="edge2" class="edge">
+<title>Job 1 (Contar Misiones Jugadas)-&gt;Job 2 (Determinar Misión Más Jugada)</title>
+<path fill="none" stroke="black" d="M400.47,-18.5C408.32,-18.5 416.27,-18.5 424.23,-18.5"></path>
+<polygon fill="black" stroke="black" points="423.99,-22 433.99,-18.5 423.99,-15 423.99,-22"></polygon>
+</g>
+<!-- Job 2 (Determinar Misión Más Jugada)&#45;&gt;output -->
+<g id="edge3" class="edge">
+<title>Job 2 (Determinar Misión Más Jugada)-&gt;output</title>
+<path fill="none" stroke="black" d="M762.67,-18.5C771.14,-18.5 779.12,-18.5 786.36,-18.5"></path>
+<polygon fill="black" stroke="black" points="786.27,-22 796.27,-18.5 786.27,-15 786.27,-22"></polygon>
+</g>
+</g>
+</g></svg>
